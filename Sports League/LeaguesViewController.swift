@@ -3,16 +3,18 @@ import UIKit
 class LeaguesViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     var weekSelected: Int?
+    var JSONFile: String?
+    var leagueSelected: String?
+    
     var fruit1: Array<String>?
     var fruit2: Array<String>?
-    var JSONFile: String?
     var leagues: Array<League>!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        fruit1 = ["Apple", "Banana"]
-        fruit2 = ["Orange"]
+//        fruit1 = ["Apple", "Banana"]
+//        fruit2 = ["Orange"]
         
         if weekSelected != nil {
             if weekSelected == 0 {
@@ -37,6 +39,18 @@ class LeaguesViewController: UIViewController, UITableViewDataSource, UITableVie
         for leagueData in leagueDataArray {
             leagues.append(League(data: leagueData))
         }
+    }
+    
+    func tableView(_ tableView: UITableView, willSelectRowAt indexPath: IndexPath) -> IndexPath? {
+        let currCell = tableView.cellForRow(at: indexPath) as! LeaguesTableViewCellController
+        self.leagueSelected = currCell.teamName!.text
+        
+        return indexPath
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let receiverViewController = segue.destination as! GamesViewController
+        receiverViewController.leagueSelected = self.leagueSelected
     }
     
     func numberOfSections(in tableView: UITableView) -> Int {

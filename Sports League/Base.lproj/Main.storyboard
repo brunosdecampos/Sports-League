@@ -123,7 +123,7 @@
         <!--Games-->
         <scene sceneID="kRn-0H-czc">
             <objects>
-                <viewController title="Games" id="0UZ-qc-YGg" sceneMemberID="viewController">
+                <viewController title="Games" id="0UZ-qc-YGg" customClass="GamesViewController" customModule="Sports_League" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="oPf-XG-Lex"/>
                         <viewControllerLayoutGuide type="bottom" id="net-Li-tCh"/>
@@ -137,11 +137,11 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="213" id="3Sa-2i-jrB">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="213" id="3Sa-2i-jrB" customClass="GamesTableViewCellController" customModule="Sports_League" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="213"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="3Sa-2i-jrB" id="JBJ-Af-pkj">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="212.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="213"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mY7-dw-fiH">
@@ -196,6 +196,16 @@
                                                 </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="homeTeamCity" destination="e25-IO-h1c" id="e4u-6T-GwB"/>
+                                            <outlet property="homeTeamLogo" destination="uIS-mt-GaK" id="ovD-TO-cRo"/>
+                                            <outlet property="homeTeamName" destination="qkM-fa-VFg" id="sOr-Rf-ZRQ"/>
+                                            <outlet property="homeTeamScore" destination="UrG-aF-8FW" id="Hw1-fs-8sU"/>
+                                            <outlet property="visitTeamCity" destination="YkS-4K-QKW" id="Al3-GD-T1P"/>
+                                            <outlet property="visitTeamLogo" destination="mY7-dw-fiH" id="AFf-Hk-gOm"/>
+                                            <outlet property="visitTeamName" destination="vRW-lw-Gn4" id="bs6-vL-b08"/>
+                                            <outlet property="visitTeamScore" destination="2yo-qZ-96N" id="IxC-bU-xGK"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
