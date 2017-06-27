@@ -1,64 +1,70 @@
 import UIKit
 
-class GamesViewController: UIViewController /*, UITableViewDataSource, UITableViewDelegate*/ {
+class GamesViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+    
+    var weekSelected: Int?
     
     var leagueSelected: String?
-//    var weekSelected: Int?
-//    var fruit1: Array<String>?
-//    var fruit2: Array<String>?
-//    var JSONFile: String?
-//    var leagues: Array<League>!
-//    
+    var JSONFile: String?
+    
+    var games: Array<Game>!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        if leagueSelected != nil {
-            print(leagueSelected!)
+        
+        if weekSelected != nil {
+            if weekSelected == 0 {
+                JSONFile = "sports-week-1"
+            } else if weekSelected == 1 {
+                JSONFile = "sports-week-2"
+            }
+            
+            if let file = Bundle(for: AppDelegate.self).path(forResource: JSONFile, ofType: "json") {
+                let data = NSData(contentsOfFile: file)! as Data
+                let json = JSON(data: data)
+                self.parseJSON(json: json)
+            }
+            
+            print("Games: \(games!)")
         }
-//
-//        if weekSelected != nil {
-//            if weekSelected == 0 {
-//                JSONFile = "sports-week-1"
-//            } else if weekSelected == 1 {
-//                JSONFile = "sports-week-2"
-//            }
-//            
-//            if let file = Bundle(for: AppDelegate.self).path(forResource: JSONFile, ofType: "json") {
-//                let data = NSData(contentsOfFile: file)! as Data
-//                let json = JSON(data: data)
-//                self.parseJSON(json: json)
-//            }
-//        }
     }
-//
-//    func parseJSON(json: JSON) {
-//        leagues = Array<League>()
-//        
-//        let leagueDataArray = json["leagues"].arrayValue
-//        
-//        for leagueData in leagueDataArray {
-//            leagues.append(League(data: leagueData))
-//        }
-//    }
-//    
+
+    func parseJSON(json: JSON) {
+        print("json: \(json)")
+        games = Array<Game>()
+        
+        let gameDataArray = json["games"].arrayValue
+        print("GameDataArray: \(gameDataArray)")
+        if leagueSelected != nil {
+            for gameData in gameDataArray {
+                games.append(Game(league: leagueSelected!, data: gameData))
+            }
+        }
+    }
+    
 //    func numberOfSections(in tableView: UITableView) -> Int {
 //        return 1
 //    }
-//    
-//    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-//        return leagues?.count ?? 0
-//    }
-//    
-//    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-//        if leagues != nil {
-//            let cell = tableView.dequeueReusableCell(withIdentifier: "sportIdentifier", for: indexPath) as! LeaguesTableViewCellController
-//            
-//            cell.feedLeagueCell(league: self.leagues[indexPath.row])
-//            
-//            return cell
-//        } else {
-//            return UITableViewCell()
-//        }
-//        
+
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        print("NumberOfRowsInSection: \(games?.count ?? 0)")
+        return games?.count ?? 0
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        print(1)
+        if games != nil && leagueSelected != nil {
+            print(2)
+            let cell = tableView.dequeueReusableCell(withIdentifier: "gameIdentifier", for: indexPath) as! GamesTableViewCellController
+            
+            cell.feedGameCell(game: self.games[indexPath.row])
+            
+            return cell
+        } else {
+            return UITableViewCell()
+        }
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }

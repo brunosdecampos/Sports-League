@@ -3,12 +3,14 @@ import UIKit
 class LeaguesViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     var weekSelected: Int?
-    var JSONFile: String?
-    var leagueSelected: String?
     
-    var fruit1: Array<String>?
-    var fruit2: Array<String>?
+    var leagueSelected: String?
+    var JSONFile: String?
+    
     var leagues: Array<League>!
+    
+//    var fruit1: Array<String>?
+//    var fruit2: Array<String>?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -50,14 +52,16 @@ class LeaguesViewController: UIViewController, UITableViewDataSource, UITableVie
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let receiverViewController = segue.destination as! GamesViewController
+        receiverViewController.weekSelected = self.weekSelected
         receiverViewController.leagueSelected = self.leagueSelected
     }
     
-    func numberOfSections(in tableView: UITableView) -> Int {
-        return 1
-    }
+//    func numberOfSections(in tableView: UITableView) -> Int {
+//        return 1
+//    }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        print(leagues?.count ?? 0)
         return leagues?.count ?? 0
         
 //        if section == 0 {
