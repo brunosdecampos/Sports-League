@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		B12FF56B1F01BB5C00FDD6D2 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12FF56A1F01BB5B00FDD6D2 /* SwiftyJSON.swift */; };
 		B12FF56D1F01C97100FDD6D2 /* League.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12FF56C1F01C97100FDD6D2 /* League.swift */; };
+		B12FF56F1F01F6BA00FDD6D2 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12FF56E1F01F6B900FDD6D2 /* Game.swift */; };
 		B13A2ACF1F00A6F70096BBC1 /* WeeksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13A2ACE1F00A6F70096BBC1 /* WeeksViewController.swift */; };
 		B13A2AD11F00BE4C0096BBC1 /* WeeksTableViewCellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13A2AD01F00BE4C0096BBC1 /* WeeksTableViewCellController.swift */; };
 		B149B09B1EFDE1D4009773ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B149B09A1EFDE1D4009773ED /* AppDelegate.swift */; };
@@ -27,6 +28,7 @@
 /* Begin PBXFileReference section */
 		B12FF56A1F01BB5B00FDD6D2 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 		B12FF56C1F01C97100FDD6D2 /* League.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = League.swift; sourceTree = "<group>"; };
+		B12FF56E1F01F6B900FDD6D2 /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		B13A2ACE1F00A6F70096BBC1 /* WeeksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeeksViewController.swift; sourceTree = "<group>"; };
 		B13A2AD01F00BE4C0096BBC1 /* WeeksTableViewCellController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeeksTableViewCellController.swift; sourceTree = "<group>"; };
 		B149B0971EFDE1D4009773ED /* Sports League.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sports League.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -83,6 +85,7 @@
 				B149B09C1EFDE1D4009773ED /* LeaguesViewController.swift */,
 				B149B0BA1EFDFB47009773ED /* LeaguesTableViewCellController.swift */,
 				B12FF56C1F01C97100FDD6D2 /* League.swift */,
+				B12FF56E1F01F6B900FDD6D2 /* Game.swift */,
 				B149B09E1EFDE1D4009773ED /* Main.storyboard */,
 				B149B0A11EFDE1D4009773ED /* Assets.xcassets */,
 				B149B0A31EFDE1D4009773ED /* LaunchScreen.storyboard */,
@@ -191,6 +194,7 @@
 				B149B0BB1EFDFB47009773ED /* LeaguesTableViewCellController.swift in Sources */,
 				B13A2ACF1F00A6F70096BBC1 /* WeeksViewController.swift in Sources */,
 				B12FF56B1F01BB5C00FDD6D2 /* SwiftyJSON.swift in Sources */,
+				B12FF56F1F01F6BA00FDD6D2 /* Game.swift in Sources */,
 				B149B09B1EFDE1D4009773ED /* AppDelegate.swift in Sources */,
 				B12FF56D1F01C97100FDD6D2 /* League.swift in Sources */,
 				B13A2AD11F00BE4C0096BBC1 /* WeeksTableViewCellController.swift in Sources */,
