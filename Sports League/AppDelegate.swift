@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  Sports League
-//
-//  Created by Priscila Campos on 2017-06-23.
-//  Copyright © 2017 Bruno Campos. All rights reserved.
-//
-
 import UIKit
 
 @UIApplicationMain
