@@ -2,7 +2,7 @@
     "leagues":
     [
         {   "name": "Hockey",
-            "image": "http://www.kiprisoft.com/midterm/hockey.png",
+            "image": "https://github.com/brunosdecampos/Sports-League/blob/master/Sports%20League/hockey-background.jpg",
             "games":
             [
             	{
@@ -56,7 +56,7 @@
             ]
         },
         {   "name": "Basketball",
-            "image": "http://www.kiprisoft.com/midterm/basketball.png",
+            "image": "https://github.com/brunosdecampos/Sports-League/blob/master/Sports%20League/basketball-background.jpg",
             "games":
             [
 				{
