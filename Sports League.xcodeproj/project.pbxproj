@@ -42,6 +42,13 @@
 		B149B0AC1EFDE252009773ED /* sports-week-1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "sports-week-1.json"; sourceTree = "<group>"; };
 		B149B0AD1EFDE252009773ED /* sports-week-2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "sports-week-2.json"; sourceTree = "<group>"; };
 		B149B0BA1EFDFB47009773ED /* LeaguesTableViewCellController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeaguesTableViewCellController.swift; sourceTree = "<group>"; };
+		B1F7825E1F03681C0034DFE5 /* AmsiPro-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AmsiPro-Black.ttf"; sourceTree = "<group>"; };
+		B1F7825F1F03681C0034DFE5 /* AmsiPro-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AmsiPro-Bold.ttf"; sourceTree = "<group>"; };
+		B1F782601F03681C0034DFE5 /* AmsiPro-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AmsiPro-Light.ttf"; sourceTree = "<group>"; };
+		B1F782611F03681C0034DFE5 /* AmsiPro-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AmsiPro-Regular.ttf"; sourceTree = "<group>"; };
+		B1F782621F03681C0034DFE5 /* AmsiPro-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AmsiPro-SemiBold.ttf"; sourceTree = "<group>"; };
+		B1F782631F03681C0034DFE5 /* AmsiPro-Ultra.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AmsiPro-Ultra.ttf"; sourceTree = "<group>"; };
+		B1F782641F03681C0034DFE5 /* AmsiPro-XLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AmsiPro-XLight.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +81,8 @@
 		B149B0991EFDE1D4009773ED /* Sports League */ = {
 			isa = PBXGroup;
 			children = (
+				B1F7825C1F0367C70034DFE5 /* Github */,
+				B1F7825D1F0367F50034DFE5 /* Fonts */,
 				B149B0B01EFDE260009773ED /* JSON */,
 				B149B09A1EFDE1D4009773ED /* AppDelegate.swift */,
 				B12FF56A1F01BB5B00FDD6D2 /* SwiftyJSON.swift */,
@@ -100,6 +109,27 @@
 				B149B0AD1EFDE252009773ED /* sports-week-2.json */,
 			);
 			name = JSON;
+			sourceTree = "<group>";
+		};
+		B1F7825C1F0367C70034DFE5 /* Github */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Github;
+			sourceTree = "<group>";
+		};
+		B1F7825D1F0367F50034DFE5 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				B1F7825E1F03681C0034DFE5 /* AmsiPro-Black.ttf */,
+				B1F7825F1F03681C0034DFE5 /* AmsiPro-Bold.ttf */,
+				B1F782601F03681C0034DFE5 /* AmsiPro-Light.ttf */,
+				B1F782611F03681C0034DFE5 /* AmsiPro-Regular.ttf */,
+				B1F782621F03681C0034DFE5 /* AmsiPro-SemiBold.ttf */,
+				B1F782631F03681C0034DFE5 /* AmsiPro-Ultra.ttf */,
+				B1F782641F03681C0034DFE5 /* AmsiPro-XLight.ttf */,
+			);
+			name = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
