@@ -39,5 +39,15 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>AmsiPro-Black.ttf</string>
+		<string>AmsiPro-Bold.ttf</string>
+		<string>AmsiPro-Light.ttf</string>
+		<string>AmsiPro-Regular.ttf</string>
+		<string>AmsiPro-SemiBold.ttf</string>
+		<string>AmsiPro-Ultra.ttf</string>
+		<string>AmsiPro-XLight.ttf</string>
+	</array>
 </dict>
 </plist>

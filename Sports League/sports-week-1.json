@@ -2,86 +2,86 @@
     "leagues":
     [
         {   "name": "Hockey",
-            "image": "https://github.com/brunosdecampos/Sports-League/blob/master/Sports%20League/hockey-background.jpg",
+            "image": "https://raw.githubusercontent.com/brunosdecampos/Sports-League/master/Sports%20League/hockey-background.jpg",
             "games":
             [
             	{
 					"game_state": "Final",
             		"game_time": 1456662600,
-					"home_team_city": "Alberta",
-            		"home_team_name": "Pigs",
+					"home_team_city": "Ottawa",
+            		"home_team_name": "Senators",
             		"home_team_score": 1,
-            		"home_team_logo": "http://www.kiprisoft.com/midterm/pig.png",
+            		"home_team_logo": "https://raw.githubusercontent.com/brunosdecampos/Sports-League/master/Sports%20League/hockey5.png",
 					"visit_team_city": "Montreal",
-            		"visit_team_name": "Fishes",
+            		"visit_team_name": "Coyotes",
             		"visit_team_score": 4,
-            		"visit_team_logo": "http://www.kiprisoft.com/midterm/fish.png"
+            		"visit_team_logo": "https://raw.githubusercontent.com/brunosdecampos/Sports-League/master/Sports%20League/hockey2.png"
             	},
             	{
 					"game_state": "Final",
             		"game_time": 1456662600,
 					"home_team_city": "Vancouver",
-            		"home_team_name": "Rabbits",
+            		"home_team_name": "Islanders",
             		"home_team_score": 2,
-            		"home_team_logo": "http://www.kiprisoft.com/midterm/rabbit.png",
-					"visit_team_city": "Halifax",
-            		"visit_team_name": "Snails",
+            		"home_team_logo": "https://raw.githubusercontent.com/brunosdecampos/Sports-League/master/Sports%20League/hockey6.png",
+					"visit_team_city": "Edmonton",
+            		"visit_team_name": "Sabres",
             		"visit_team_score": 0,
-            		"visit_team_logo": "http://www.kiprisoft.com/midterm/snail.png"
+            		"visit_team_logo": "https://raw.githubusercontent.com/brunosdecampos/Sports-League/master/Sports%20League/hockey7.png"
             	},
             	{
 					"game_state": "Pregame",
             		"game_time": 1456673400,
 					"home_team_city": "Calgary",
-            		"home_team_name": "Crabs",
+            		"home_team_name": "Predators",
             		"home_team_score": 0,
-            		"home_team_logo": "http://www.kiprisoft.com/midterm/crab.png",
+            		"home_team_logo": "https://raw.githubusercontent.com/brunosdecampos/Sports-League/master/Sports%20League/hockey1.png",
 					"visit_team_city": "London",
-            		"visit_team_name": "Bears",
+            		"visit_team_name": "Avalanche",
             		"visit_team_score": 0,
-            		"visit_team_logo": "http://www.kiprisoft.com/midterm/bear.png"
+            		"visit_team_logo": "https://raw.githubusercontent.com/brunosdecampos/Sports-League/master/Sports%20League/hockey3.png"
             	},
             	{
 					"game_state": "Pregame",
             		"game_time": 1456677000,
-					"home_team_city": "Surrey",
-            		"home_team_name": "Caterpillars",
+					"home_team_city": "Kingston",
+            		"home_team_name": "Canucks",
             		"home_team_score": 0,
-            		"home_team_logo": "http://www.kiprisoft.com/midterm/caterpillar.png",
-					"visit_team_city": "Burnaby",
-            		"visit_team_name": "Bees",
+            		"home_team_logo": "https://raw.githubusercontent.com/brunosdecampos/Sports-League/master/Sports%20League/hockey4.png",
+					"visit_team_city": "Alberta",
+            		"visit_team_name": "Rangers",
             		"visit_team_score": 0,
-            		"visit_team_logo": "http://www.kiprisoft.com/midterm/bee.png"
+            		"visit_team_logo": "https://raw.githubusercontent.com/brunosdecampos/Sports-League/master/Sports%20League/hockey8.png"
             	}
             ]
         },
         {   "name": "Basketball",
-            "image": "https://github.com/brunosdecampos/Sports-League/blob/master/Sports%20League/basketball-background.jpg",
+            "image": "https://raw.githubusercontent.com/brunosdecampos/Sports-League/master/Sports%20League/basketball-background.jpg",
             "games":
             [
 				{
 					"game_state": "Final",
             		"game_time": 1456662600,
 					"home_team_city": "Vancouver",
-            		"home_team_name": "Kittens",
+            		"home_team_name": "Skyliners",
             		"home_team_score": 104,
-            		"home_team_logo": "http://www.kiprisoft.com/midterm/kitten.png",
+            		"home_team_logo": "https://raw.githubusercontent.com/brunosdecampos/Sports-League/master/Sports%20League/basketball1.png",
 					"visit_team_city": "Waterloo",
-            		"visit_team_name": "Lambs",
+            		"visit_team_name": "Dinamo",
             		"visit_team_score": 95,
-            		"visit_team_logo": "http://www.kiprisoft.com/midterm/sheep.png"
+            		"visit_team_logo": "https://raw.githubusercontent.com/brunosdecampos/Sports-League/master/Sports%20League/basketball2.png"
             	},
 				{
 					"game_state": "Pregame",
             		"game_time": 1456677000,
 					"home_team_city": "Saskatoon",
-            		"home_team_name": "Squids",
+            		"home_team_name": "Banvit",
             		"home_team_score": 0,
-            		"home_team_logo": "http://www.kiprisoft.com/midterm/squid.png",
+            		"home_team_logo": "https://raw.githubusercontent.com/brunosdecampos/Sports-League/master/Sports%20League/basketball3.png",
 					"visit_team_city": "Toronto",
-            		"visit_team_name": "Ladybugs",
+            		"visit_team_name": "Phoenix",
             		"visit_team_score": 0,
-            		"visit_team_logo": "http://www.kiprisoft.com/midterm/ladybugs.png"
+            		"visit_team_logo": "https://raw.githubusercontent.com/brunosdecampos/Sports-League/master/Sports%20League/basketball4.png"
             	}
             ]
         }

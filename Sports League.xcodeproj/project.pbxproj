@@ -15,6 +15,13 @@
 		B139B9EB1F0427CC00E67E2D /* baseball-background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B139B9E81F0427CC00E67E2D /* baseball-background.jpg */; };
 		B139B9EC1F0427CC00E67E2D /* basketball-background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B139B9E91F0427CC00E67E2D /* basketball-background.jpg */; };
 		B139B9ED1F0427CC00E67E2D /* hockey-background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B139B9EA1F0427CC00E67E2D /* hockey-background.jpg */; };
+		B139B9EE1F04345900E67E2D /* AmsiPro-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B1F7825E1F03681C0034DFE5 /* AmsiPro-Black.ttf */; };
+		B139B9EF1F04345900E67E2D /* AmsiPro-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B1F7825F1F03681C0034DFE5 /* AmsiPro-Bold.ttf */; };
+		B139B9F01F04345900E67E2D /* AmsiPro-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B1F782601F03681C0034DFE5 /* AmsiPro-Light.ttf */; };
+		B139B9F11F04345900E67E2D /* AmsiPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B1F782611F03681C0034DFE5 /* AmsiPro-Regular.ttf */; };
+		B139B9F21F04345900E67E2D /* AmsiPro-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B1F782621F03681C0034DFE5 /* AmsiPro-SemiBold.ttf */; };
+		B139B9F31F04345900E67E2D /* AmsiPro-Ultra.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B1F782631F03681C0034DFE5 /* AmsiPro-Ultra.ttf */; };
+		B139B9F41F04345900E67E2D /* AmsiPro-XLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B1F782641F03681C0034DFE5 /* AmsiPro-XLight.ttf */; };
 		B13A2ACF1F00A6F70096BBC1 /* WeeksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13A2ACE1F00A6F70096BBC1 /* WeeksViewController.swift */; };
 		B13A2AD11F00BE4C0096BBC1 /* WeeksTableViewCellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13A2AD01F00BE4C0096BBC1 /* WeeksTableViewCellController.swift */; };
 		B149B09B1EFDE1D4009773ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B149B09A1EFDE1D4009773ED /* AppDelegate.swift */; };
@@ -25,7 +32,6 @@
 		B149B0AE1EFDE252009773ED /* sports-week-1.json in Resources */ = {isa = PBXBuildFile; fileRef = B149B0AC1EFDE252009773ED /* sports-week-1.json */; };
 		B149B0AF1EFDE252009773ED /* sports-week-2.json in Resources */ = {isa = PBXBuildFile; fileRef = B149B0AD1EFDE252009773ED /* sports-week-2.json */; };
 		B149B0BB1EFDFB47009773ED /* LeaguesTableViewCellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B149B0BA1EFDFB47009773ED /* LeaguesTableViewCellController.swift */; };
-		B1F7827C1F0380E80034DFE5 /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = B1F782661F0380E70034DFE5 /* arrow.png */; };
 		B1F7827F1F0380E90034DFE5 /* baseball1.png in Resources */ = {isa = PBXBuildFile; fileRef = B1F782691F0380E80034DFE5 /* baseball1.png */; };
 		B1F782801F0380E90034DFE5 /* baseball2.png in Resources */ = {isa = PBXBuildFile; fileRef = B1F7826A1F0380E80034DFE5 /* baseball2.png */; };
 		B1F782831F0380E90034DFE5 /* basketball1.png in Resources */ = {isa = PBXBuildFile; fileRef = B1F7826D1F0380E80034DFE5 /* basketball1.png */; };
@@ -71,7 +77,6 @@
 		B1F782621F03681C0034DFE5 /* AmsiPro-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AmsiPro-SemiBold.ttf"; sourceTree = "<group>"; };
 		B1F782631F03681C0034DFE5 /* AmsiPro-Ultra.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AmsiPro-Ultra.ttf"; sourceTree = "<group>"; };
 		B1F782641F03681C0034DFE5 /* AmsiPro-XLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AmsiPro-XLight.ttf"; sourceTree = "<group>"; };
-		B1F782661F0380E70034DFE5 /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
 		B1F782691F0380E80034DFE5 /* baseball1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baseball1.png; sourceTree = "<group>"; };
 		B1F7826A1F0380E80034DFE5 /* baseball2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baseball2.png; sourceTree = "<group>"; };
 		B1F7826D1F0380E80034DFE5 /* basketball1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = basketball1.png; sourceTree = "<group>"; };
@@ -190,7 +195,6 @@
 		B1F782651F03762D0034DFE5 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				B1F782661F0380E70034DFE5 /* arrow.png */,
 				B1F782711F0380E80034DFE5 /* calendar.png */,
 				B1F7825C1F0367C70034DFE5 /* Github */,
 			);
@@ -256,6 +260,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B139B9EE1F04345900E67E2D /* AmsiPro-Black.ttf in Resources */,
+				B139B9EF1F04345900E67E2D /* AmsiPro-Bold.ttf in Resources */,
+				B139B9F01F04345900E67E2D /* AmsiPro-Light.ttf in Resources */,
+				B139B9F11F04345900E67E2D /* AmsiPro-Regular.ttf in Resources */,
+				B139B9F21F04345900E67E2D /* AmsiPro-SemiBold.ttf in Resources */,
+				B139B9F31F04345900E67E2D /* AmsiPro-Ultra.ttf in Resources */,
+				B139B9F41F04345900E67E2D /* AmsiPro-XLight.ttf in Resources */,
 				B1F782901F0380E90034DFE5 /* hockey7.png in Resources */,
 				B139B9EC1F0427CC00E67E2D /* basketball-background.jpg in Resources */,
 				B1F782831F0380E90034DFE5 /* basketball1.png in Resources */,
@@ -266,7 +277,6 @@
 				B1F7828F1F0380E90034DFE5 /* hockey6.png in Resources */,
 				B149B0AE1EFDE252009773ED /* sports-week-1.json in Resources */,
 				B1F782911F0380E90034DFE5 /* hockey8.png in Resources */,
-				B1F7827C1F0380E80034DFE5 /* arrow.png in Resources */,
 				B149B0A51EFDE1D4009773ED /* LaunchScreen.storyboard in Resources */,
 				B1F782871F0380E90034DFE5 /* calendar.png in Resources */,
 				B1F7827F1F0380E90034DFE5 /* baseball1.png in Resources */,

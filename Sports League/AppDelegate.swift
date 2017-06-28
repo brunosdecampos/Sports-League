@@ -9,9 +9,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
-//        UINavigationBar.appearance().backgroundColor = UIColor.blue
-//        UINavigationBar.appearance().tintColor = UIColor.red
-//        UIApplication.shared.statusBarStyle = .lightContent
+//        UINavigationBar.appearance().titleTextAttributes = [NSFontAttributeName: UIFont(name: "AmsiPro-Black", size: 25)!]
+        UINavigationBar.appearance().barTintColor = UIColor(red: 253/255, green: 63/255, blue: 75/255, alpha: 1.0)
+        UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName: UIColor.white]
+        UINavigationBar.appearance().tintColor = UIColor.white
+        UIApplication.shared.statusBarStyle = .lightContent
         
         return true
     }

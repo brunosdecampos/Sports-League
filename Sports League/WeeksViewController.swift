@@ -8,7 +8,42 @@ class WeeksViewController: UIViewController, UITableViewDataSource, UITableViewD
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        weeks = ["1st week", "2nd week"]
+        let date = Date()
+        let calendar = Calendar.current
+        let month = calendar.component(.month, from: date)
+        
+        var currMonth: String
+        
+        switch month {
+        case 1:
+            currMonth = "January"
+        case 2:
+            currMonth = "February"
+        case 3:
+            currMonth = "March"
+        case 4:
+            currMonth = "April"
+        case 5:
+            currMonth = "May"
+        case 6:
+            currMonth = "June"
+        case 7:
+            currMonth = "July"
+        case 8:
+            currMonth = "August"
+        case 9:
+            currMonth = "September"
+        case 10:
+            currMonth = "October"
+        case 11:
+            currMonth = "November"
+        case 12:
+            currMonth = "December"
+        default:
+            currMonth = "the month"
+        }
+        
+        weeks = ["1st week of \(currMonth)", "2nd week of \(currMonth)"]
     }
     
     func tableView(_ tableView: UITableView, willSelectRowAt indexPath: IndexPath) -> IndexPath? {
