@@ -6,8 +6,10 @@ class League {
     var image: String
     
     init(data: JSON) {
+        
         self.name = data["name"].stringValue
         self.image = data["image"].stringValue
+        
     }
     
 }

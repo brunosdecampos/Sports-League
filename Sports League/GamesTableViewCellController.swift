@@ -12,6 +12,9 @@ class GamesTableViewCellController: UITableViewCell {
     @IBOutlet weak var visitTeamCity: UILabel!
     @IBOutlet weak var visitTeamScore: UILabel!
     
+    @IBOutlet weak var gameStatus: UILabel!
+    @IBOutlet weak var gameTime: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
     }
@@ -30,6 +33,9 @@ class GamesTableViewCellController: UITableViewCell {
         self.visitTeamName.text = game.visitTeamName
         self.visitTeamCity.text = game.visitTeamCity
         self.visitTeamScore.text = String(game.visitTeamScore)
+        
+        self.gameStatus.text = (game.state == "Final") ? "End" : "Upcomming"
+        self.gameTime.text = convertDate(time: game.time)
     }
     
     func loadTeamImage(team: String, imageURL: String) {
@@ -51,5 +57,16 @@ class GamesTableViewCellController: UITableViewCell {
             task.resume()
         }
     }
-
+    
+    func convertDate(time: Int) -> String {
+        let date = Date(timeIntervalSinceReferenceDate: Double(time))
+        let formatter = DateFormatter()
+        
+        formatter.dateFormat = "hh:mm a"
+        formatter.amSymbol = "AM"
+        formatter.pmSymbol = "PM"
+        
+        return String(formatter.string(from: date))
+    }
+    
 }

@@ -31,17 +31,17 @@ class GamesViewController: UIViewController, UITableViewDataSource, UITableViewD
     func parseJSON(json: JSON) {
         if leagueSelected != nil {
 //            var jsonArr:[JSON] = JSON["leagues"].arrayValue
-//            var stringArr:[String] = JSON["leagues"].arrayValue.map { $0.stringValue}
+//            var stringArr:[String] = JSON["leagues"].arrayValue.map { $0.stringValue }
             
             games = Array<Game>()
             
             for item in json["leagues"].arrayValue {
-                print(item["name"].stringValue)
-                
-                for innerItem in item["games"].arrayValue {
-                    print("\(innerItem["home_team_name"]) x \(innerItem["visit_team_name"])")
-                    
-                    games.append(Game(leagueIndex: leagueIndexSelected!, data: innerItem))
+                if item["name"].stringValue == leagueSelected! {
+                    for innerItem in item["games"].arrayValue {
+                        //print("\(innerItem["home_team_name"]) x \(innerItem["visit_team_name"])")
+                        
+                        games.append(Game(leagueIndex: leagueIndexSelected!, data: innerItem))
+                    }
                 }
             }
         }
