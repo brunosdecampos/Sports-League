@@ -3,6 +3,7 @@ import UIKit
 class GamesViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     var weekSelected: Int?
+    var leagueIndexSelected: Int?
     
     var leagueSelected: String?
     var JSONFile: String?
@@ -24,20 +25,24 @@ class GamesViewController: UIViewController, UITableViewDataSource, UITableViewD
                 let json = JSON(data: data)
                 self.parseJSON(json: json)
             }
-            
-            print("Games: \(games!)")
         }
     }
 
     func parseJSON(json: JSON) {
-        print("json: \(json)")
-        games = Array<Game>()
-        
-        let gameDataArray = json["games"].arrayValue
-        print("GameDataArray: \(gameDataArray)")
         if leagueSelected != nil {
-            for gameData in gameDataArray {
-                games.append(Game(league: leagueSelected!, data: gameData))
+//            var jsonArr:[JSON] = JSON["leagues"].arrayValue
+//            var stringArr:[String] = JSON["leagues"].arrayValue.map { $0.stringValue}
+            
+            games = Array<Game>()
+            
+            for item in json["leagues"].arrayValue {
+                print(item["name"].stringValue)
+                
+                for innerItem in item["games"].arrayValue {
+                    print("\(innerItem["home_team_name"]) x \(innerItem["visit_team_name"])")
+                    
+                    games.append(Game(leagueIndex: leagueIndexSelected!, data: innerItem))
+                }
             }
         }
     }
@@ -47,14 +52,12 @@ class GamesViewController: UIViewController, UITableViewDataSource, UITableViewD
 //    }
 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        print("NumberOfRowsInSection: \(games?.count ?? 0)")
+        // print("NumberOfRowsInSection: \(games?.count ?? 0)")
         return games?.count ?? 0
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        print(1)
         if games != nil && leagueSelected != nil {
-            print(2)
             let cell = tableView.dequeueReusableCell(withIdentifier: "gameIdentifier", for: indexPath) as! GamesTableViewCellController
             
             cell.feedGameCell(game: self.games[indexPath.row])

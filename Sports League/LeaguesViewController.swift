@@ -3,6 +3,7 @@ import UIKit
 class LeaguesViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     var weekSelected: Int?
+    var leagueIndexSelected: Int?
     
     var leagueSelected: String?
     var JSONFile: String?
@@ -37,15 +38,17 @@ class LeaguesViewController: UIViewController, UITableViewDataSource, UITableVie
         leagues = Array<League>()
         
         let leagueDataArray = json["leagues"].arrayValue
-        
+//        print("LeagueDataArray; \(leagueDataArray)")
         for leagueData in leagueDataArray {
             leagues.append(League(data: leagueData))
+            //print(leagueData)
         }
     }
     
     func tableView(_ tableView: UITableView, willSelectRowAt indexPath: IndexPath) -> IndexPath? {
         let currCell = tableView.cellForRow(at: indexPath) as! LeaguesTableViewCellController
         self.leagueSelected = currCell.teamName!.text
+        self.leagueIndexSelected = indexPath.row
         
         return indexPath
     }
@@ -54,6 +57,7 @@ class LeaguesViewController: UIViewController, UITableViewDataSource, UITableVie
         let receiverViewController = segue.destination as! GamesViewController
         receiverViewController.weekSelected = self.weekSelected
         receiverViewController.leagueSelected = self.leagueSelected
+        receiverViewController.leagueIndexSelected = self.leagueIndexSelected
     }
     
 //    func numberOfSections(in tableView: UITableView) -> Int {
@@ -61,7 +65,7 @@ class LeaguesViewController: UIViewController, UITableViewDataSource, UITableVie
 //    }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        print(leagues?.count ?? 0)
+//        print(leagues?.count ?? 0)
         return leagues?.count ?? 0
         
 //        if section == 0 {
