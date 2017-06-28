@@ -12,6 +12,9 @@
 		B12FF56F1F01F6BA00FDD6D2 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12FF56E1F01F6B900FDD6D2 /* Game.swift */; };
 		B12FF5711F01FFC200FDD6D2 /* GamesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12FF5701F01FFC200FDD6D2 /* GamesViewController.swift */; };
 		B12FF5731F02047A00FDD6D2 /* GamesTableViewCellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12FF5721F02047A00FDD6D2 /* GamesTableViewCellController.swift */; };
+		B139B9EB1F0427CC00E67E2D /* baseball-background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B139B9E81F0427CC00E67E2D /* baseball-background.jpg */; };
+		B139B9EC1F0427CC00E67E2D /* basketball-background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B139B9E91F0427CC00E67E2D /* basketball-background.jpg */; };
+		B139B9ED1F0427CC00E67E2D /* hockey-background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B139B9EA1F0427CC00E67E2D /* hockey-background.jpg */; };
 		B13A2ACF1F00A6F70096BBC1 /* WeeksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13A2ACE1F00A6F70096BBC1 /* WeeksViewController.swift */; };
 		B13A2AD11F00BE4C0096BBC1 /* WeeksTableViewCellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13A2AD01F00BE4C0096BBC1 /* WeeksTableViewCellController.swift */; };
 		B149B09B1EFDE1D4009773ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B149B09A1EFDE1D4009773ED /* AppDelegate.swift */; };
@@ -46,6 +49,9 @@
 		B12FF56E1F01F6B900FDD6D2 /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		B12FF5701F01FFC200FDD6D2 /* GamesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamesViewController.swift; sourceTree = "<group>"; };
 		B12FF5721F02047A00FDD6D2 /* GamesTableViewCellController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamesTableViewCellController.swift; sourceTree = "<group>"; };
+		B139B9E81F0427CC00E67E2D /* baseball-background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "baseball-background.jpg"; sourceTree = "<group>"; };
+		B139B9E91F0427CC00E67E2D /* basketball-background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "basketball-background.jpg"; sourceTree = "<group>"; };
+		B139B9EA1F0427CC00E67E2D /* hockey-background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "hockey-background.jpg"; sourceTree = "<group>"; };
 		B13A2ACE1F00A6F70096BBC1 /* WeeksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeeksViewController.swift; sourceTree = "<group>"; };
 		B13A2AD01F00BE4C0096BBC1 /* WeeksTableViewCellController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeeksTableViewCellController.swift; sourceTree = "<group>"; };
 		B149B0971EFDE1D4009773ED /* Sports League.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sports League.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -146,6 +152,9 @@
 		B1F7825C1F0367C70034DFE5 /* Github */ = {
 			isa = PBXGroup;
 			children = (
+				B139B9E81F0427CC00E67E2D /* baseball-background.jpg */,
+				B139B9E91F0427CC00E67E2D /* basketball-background.jpg */,
+				B139B9EA1F0427CC00E67E2D /* hockey-background.jpg */,
 				B1F782691F0380E80034DFE5 /* baseball1.png */,
 				B1F7826A1F0380E80034DFE5 /* baseball2.png */,
 				B1F7826D1F0380E80034DFE5 /* basketball1.png */,
@@ -248,8 +257,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1F782901F0380E90034DFE5 /* hockey7.png in Resources */,
+				B139B9EC1F0427CC00E67E2D /* basketball-background.jpg in Resources */,
 				B1F782831F0380E90034DFE5 /* basketball1.png in Resources */,
 				B1F7828A1F0380E90034DFE5 /* hockey1.png in Resources */,
+				B139B9EB1F0427CC00E67E2D /* baseball-background.jpg in Resources */,
 				B1F7828D1F0380E90034DFE5 /* hockey4.png in Resources */,
 				B1F7828B1F0380E90034DFE5 /* hockey2.png in Resources */,
 				B1F7828F1F0380E90034DFE5 /* hockey6.png in Resources */,
@@ -265,6 +276,7 @@
 				B1F782861F0380E90034DFE5 /* basketball4.png in Resources */,
 				B149B0AF1EFDE252009773ED /* sports-week-2.json in Resources */,
 				B149B0A01EFDE1D4009773ED /* Main.storyboard in Resources */,
+				B139B9ED1F0427CC00E67E2D /* hockey-background.jpg in Resources */,
 				B1F7828C1F0380E90034DFE5 /* hockey3.png in Resources */,
 				B1F7828E1F0380E90034DFE5 /* hockey5.png in Resources */,
 				B1F782841F0380E90034DFE5 /* basketball2.png in Resources */,
