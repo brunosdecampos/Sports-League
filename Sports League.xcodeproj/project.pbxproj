@@ -22,6 +22,28 @@
 		B149B0AE1EFDE252009773ED /* sports-week-1.json in Resources */ = {isa = PBXBuildFile; fileRef = B149B0AC1EFDE252009773ED /* sports-week-1.json */; };
 		B149B0AF1EFDE252009773ED /* sports-week-2.json in Resources */ = {isa = PBXBuildFile; fileRef = B149B0AD1EFDE252009773ED /* sports-week-2.json */; };
 		B149B0BB1EFDFB47009773ED /* LeaguesTableViewCellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B149B0BA1EFDFB47009773ED /* LeaguesTableViewCellController.swift */; };
+		B1F7827C1F0380E80034DFE5 /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = B1F782661F0380E70034DFE5 /* arrow.png */; };
+		B1F7827D1F0380E90034DFE5 /* baseball-background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B1F782671F0380E80034DFE5 /* baseball-background.jpg */; };
+		B1F7827E1F0380E90034DFE5 /* baseball-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B1F782681F0380E80034DFE5 /* baseball-icon.png */; };
+		B1F7827F1F0380E90034DFE5 /* baseball1.png in Resources */ = {isa = PBXBuildFile; fileRef = B1F782691F0380E80034DFE5 /* baseball1.png */; };
+		B1F782801F0380E90034DFE5 /* baseball2.png in Resources */ = {isa = PBXBuildFile; fileRef = B1F7826A1F0380E80034DFE5 /* baseball2.png */; };
+		B1F782811F0380E90034DFE5 /* basketball-background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B1F7826B1F0380E80034DFE5 /* basketball-background.jpg */; };
+		B1F782821F0380E90034DFE5 /* basketball-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B1F7826C1F0380E80034DFE5 /* basketball-icon.png */; };
+		B1F782831F0380E90034DFE5 /* basketball1.png in Resources */ = {isa = PBXBuildFile; fileRef = B1F7826D1F0380E80034DFE5 /* basketball1.png */; };
+		B1F782841F0380E90034DFE5 /* basketball2.png in Resources */ = {isa = PBXBuildFile; fileRef = B1F7826E1F0380E80034DFE5 /* basketball2.png */; };
+		B1F782851F0380E90034DFE5 /* basketball3.png in Resources */ = {isa = PBXBuildFile; fileRef = B1F7826F1F0380E80034DFE5 /* basketball3.png */; };
+		B1F782861F0380E90034DFE5 /* basketball4.png in Resources */ = {isa = PBXBuildFile; fileRef = B1F782701F0380E80034DFE5 /* basketball4.png */; };
+		B1F782871F0380E90034DFE5 /* calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = B1F782711F0380E80034DFE5 /* calendar.png */; };
+		B1F782881F0380E90034DFE5 /* hockey-background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B1F782721F0380E80034DFE5 /* hockey-background.jpg */; };
+		B1F782891F0380E90034DFE5 /* hockey-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B1F782731F0380E80034DFE5 /* hockey-icon.png */; };
+		B1F7828A1F0380E90034DFE5 /* hockey1.png in Resources */ = {isa = PBXBuildFile; fileRef = B1F782741F0380E80034DFE5 /* hockey1.png */; };
+		B1F7828B1F0380E90034DFE5 /* hockey2.png in Resources */ = {isa = PBXBuildFile; fileRef = B1F782751F0380E80034DFE5 /* hockey2.png */; };
+		B1F7828C1F0380E90034DFE5 /* hockey3.png in Resources */ = {isa = PBXBuildFile; fileRef = B1F782761F0380E80034DFE5 /* hockey3.png */; };
+		B1F7828D1F0380E90034DFE5 /* hockey4.png in Resources */ = {isa = PBXBuildFile; fileRef = B1F782771F0380E80034DFE5 /* hockey4.png */; };
+		B1F7828E1F0380E90034DFE5 /* hockey5.png in Resources */ = {isa = PBXBuildFile; fileRef = B1F782781F0380E80034DFE5 /* hockey5.png */; };
+		B1F7828F1F0380E90034DFE5 /* hockey6.png in Resources */ = {isa = PBXBuildFile; fileRef = B1F782791F0380E80034DFE5 /* hockey6.png */; };
+		B1F782901F0380E90034DFE5 /* hockey7.png in Resources */ = {isa = PBXBuildFile; fileRef = B1F7827A1F0380E80034DFE5 /* hockey7.png */; };
+		B1F782911F0380E90034DFE5 /* hockey8.png in Resources */ = {isa = PBXBuildFile; fileRef = B1F7827B1F0380E80034DFE5 /* hockey8.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +71,28 @@
 		B1F782621F03681C0034DFE5 /* AmsiPro-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AmsiPro-SemiBold.ttf"; sourceTree = "<group>"; };
 		B1F782631F03681C0034DFE5 /* AmsiPro-Ultra.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AmsiPro-Ultra.ttf"; sourceTree = "<group>"; };
 		B1F782641F03681C0034DFE5 /* AmsiPro-XLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AmsiPro-XLight.ttf"; sourceTree = "<group>"; };
+		B1F782661F0380E70034DFE5 /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
+		B1F782671F0380E80034DFE5 /* baseball-background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "baseball-background.jpg"; sourceTree = "<group>"; };
+		B1F782681F0380E80034DFE5 /* baseball-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "baseball-icon.png"; sourceTree = "<group>"; };
+		B1F782691F0380E80034DFE5 /* baseball1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baseball1.png; sourceTree = "<group>"; };
+		B1F7826A1F0380E80034DFE5 /* baseball2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baseball2.png; sourceTree = "<group>"; };
+		B1F7826B1F0380E80034DFE5 /* basketball-background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "basketball-background.jpg"; sourceTree = "<group>"; };
+		B1F7826C1F0380E80034DFE5 /* basketball-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "basketball-icon.png"; sourceTree = "<group>"; };
+		B1F7826D1F0380E80034DFE5 /* basketball1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = basketball1.png; sourceTree = "<group>"; };
+		B1F7826E1F0380E80034DFE5 /* basketball2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = basketball2.png; sourceTree = "<group>"; };
+		B1F7826F1F0380E80034DFE5 /* basketball3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = basketball3.png; sourceTree = "<group>"; };
+		B1F782701F0380E80034DFE5 /* basketball4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = basketball4.png; sourceTree = "<group>"; };
+		B1F782711F0380E80034DFE5 /* calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calendar.png; sourceTree = "<group>"; };
+		B1F782721F0380E80034DFE5 /* hockey-background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "hockey-background.jpg"; sourceTree = "<group>"; };
+		B1F782731F0380E80034DFE5 /* hockey-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hockey-icon.png"; sourceTree = "<group>"; };
+		B1F782741F0380E80034DFE5 /* hockey1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hockey1.png; sourceTree = "<group>"; };
+		B1F782751F0380E80034DFE5 /* hockey2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hockey2.png; sourceTree = "<group>"; };
+		B1F782761F0380E80034DFE5 /* hockey3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hockey3.png; sourceTree = "<group>"; };
+		B1F782771F0380E80034DFE5 /* hockey4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hockey4.png; sourceTree = "<group>"; };
+		B1F782781F0380E80034DFE5 /* hockey5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hockey5.png; sourceTree = "<group>"; };
+		B1F782791F0380E80034DFE5 /* hockey6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hockey6.png; sourceTree = "<group>"; };
+		B1F7827A1F0380E80034DFE5 /* hockey7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hockey7.png; sourceTree = "<group>"; };
+		B1F7827B1F0380E80034DFE5 /* hockey8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hockey8.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +125,7 @@
 		B149B0991EFDE1D4009773ED /* Sports League */ = {
 			isa = PBXGroup;
 			children = (
-				B1F7825C1F0367C70034DFE5 /* Github */,
+				B1F782651F03762D0034DFE5 /* Images */,
 				B1F7825D1F0367F50034DFE5 /* Fonts */,
 				B149B0B01EFDE260009773ED /* JSON */,
 				B149B09A1EFDE1D4009773ED /* AppDelegate.swift */,
@@ -114,6 +158,23 @@
 		B1F7825C1F0367C70034DFE5 /* Github */ = {
 			isa = PBXGroup;
 			children = (
+				B1F782671F0380E80034DFE5 /* baseball-background.jpg */,
+				B1F782691F0380E80034DFE5 /* baseball1.png */,
+				B1F7826A1F0380E80034DFE5 /* baseball2.png */,
+				B1F7826B1F0380E80034DFE5 /* basketball-background.jpg */,
+				B1F7826D1F0380E80034DFE5 /* basketball1.png */,
+				B1F7826E1F0380E80034DFE5 /* basketball2.png */,
+				B1F7826F1F0380E80034DFE5 /* basketball3.png */,
+				B1F782701F0380E80034DFE5 /* basketball4.png */,
+				B1F782721F0380E80034DFE5 /* hockey-background.jpg */,
+				B1F782741F0380E80034DFE5 /* hockey1.png */,
+				B1F782751F0380E80034DFE5 /* hockey2.png */,
+				B1F782761F0380E80034DFE5 /* hockey3.png */,
+				B1F782771F0380E80034DFE5 /* hockey4.png */,
+				B1F782781F0380E80034DFE5 /* hockey5.png */,
+				B1F782791F0380E80034DFE5 /* hockey6.png */,
+				B1F7827A1F0380E80034DFE5 /* hockey7.png */,
+				B1F7827B1F0380E80034DFE5 /* hockey8.png */,
 			);
 			name = Github;
 			sourceTree = "<group>";
@@ -130,6 +191,19 @@
 				B1F782641F03681C0034DFE5 /* AmsiPro-XLight.ttf */,
 			);
 			name = Fonts;
+			sourceTree = "<group>";
+		};
+		B1F782651F03762D0034DFE5 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				B1F782661F0380E70034DFE5 /* arrow.png */,
+				B1F782681F0380E80034DFE5 /* baseball-icon.png */,
+				B1F7826C1F0380E80034DFE5 /* basketball-icon.png */,
+				B1F782711F0380E80034DFE5 /* calendar.png */,
+				B1F782731F0380E80034DFE5 /* hockey-icon.png */,
+				B1F7825C1F0367C70034DFE5 /* Github */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,11 +265,33 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1F782901F0380E90034DFE5 /* hockey7.png in Resources */,
+				B1F782831F0380E90034DFE5 /* basketball1.png in Resources */,
+				B1F7827E1F0380E90034DFE5 /* baseball-icon.png in Resources */,
+				B1F7828A1F0380E90034DFE5 /* hockey1.png in Resources */,
+				B1F782881F0380E90034DFE5 /* hockey-background.jpg in Resources */,
+				B1F7828D1F0380E90034DFE5 /* hockey4.png in Resources */,
+				B1F7828B1F0380E90034DFE5 /* hockey2.png in Resources */,
+				B1F7827D1F0380E90034DFE5 /* baseball-background.jpg in Resources */,
+				B1F7828F1F0380E90034DFE5 /* hockey6.png in Resources */,
 				B149B0AE1EFDE252009773ED /* sports-week-1.json in Resources */,
+				B1F782911F0380E90034DFE5 /* hockey8.png in Resources */,
+				B1F7827C1F0380E80034DFE5 /* arrow.png in Resources */,
 				B149B0A51EFDE1D4009773ED /* LaunchScreen.storyboard in Resources */,
+				B1F782871F0380E90034DFE5 /* calendar.png in Resources */,
+				B1F782811F0380E90034DFE5 /* basketball-background.jpg in Resources */,
+				B1F7827F1F0380E90034DFE5 /* baseball1.png in Resources */,
+				B1F782891F0380E90034DFE5 /* hockey-icon.png in Resources */,
+				B1F782801F0380E90034DFE5 /* baseball2.png in Resources */,
+				B1F782851F0380E90034DFE5 /* basketball3.png in Resources */,
 				B149B0A21EFDE1D4009773ED /* Assets.xcassets in Resources */,
+				B1F782861F0380E90034DFE5 /* basketball4.png in Resources */,
+				B1F782821F0380E90034DFE5 /* basketball-icon.png in Resources */,
 				B149B0AF1EFDE252009773ED /* sports-week-2.json in Resources */,
 				B149B0A01EFDE1D4009773ED /* Main.storyboard in Resources */,
+				B1F7828C1F0380E90034DFE5 /* hockey3.png in Resources */,
+				B1F7828E1F0380E90034DFE5 /* hockey5.png in Resources */,
+				B1F782841F0380E90034DFE5 /* basketball2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
