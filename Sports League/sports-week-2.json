@@ -64,13 +64,25 @@
             		"game_time": 1457352000,
 					"home_team_city": "Toronto",
             		"home_team_name": "Blue Jays",
-            		"home_team_score": 10,
+            		"home_team_score": 70,
             		"home_team_logo": "https://raw.githubusercontent.com/brunosdecampos/Sports-League/master/Sports%20League/baseball1.png",
 					"visit_team_city": "Montreal",
             		"visit_team_name": "Cleveland",
-            		"visit_team_score": 2,
+            		"visit_team_score": 25,
             		"visit_team_logo": "https://raw.githubusercontent.com/brunosdecampos/Sports-League/master/Sports%20League/baseball2.png"
             	},
+                {
+                    "game_state": "Pregame",
+                    "game_time": 1456677000,
+                    "home_team_city": "Quebec",
+                    "home_team_name": "Jaxx",
+                    "home_team_score": 52,
+                    "home_team_logo": "https://raw.githubusercontent.com/brunosdecampos/Swift-Sports-League/master/Sports%20League/baseball3.png",
+                    "visit_team_city": "Mississauga",
+                    "visit_team_name": "Manatees",
+                    "visit_team_score": 23,
+                    "visit_team_logo": "https://raw.githubusercontent.com/brunosdecampos/Swift-Sports-League/master/Sports%20League/baseball4.png"
+                }
             ]
         },
         {   "name": "Basketball",
@@ -89,19 +101,37 @@
             		"visit_team_score": 92,
             		"visit_team_logo": "https://raw.githubusercontent.com/brunosdecampos/Sports-League/master/Sports%20League/basketball2.png"
             	},
-				{
-					"game_state": "Final",
-            		"game_time": 1427169600,
-					"home_team_city": "Saskatoon",
-            		"home_team_name": "Banvit",
-            		"home_team_score": 90,
-            		"home_team_logo": "https://raw.githubusercontent.com/brunosdecampos/Sports-League/master/Sports%20League/basketball3.png",
-					"visit_team_city": "Vancouver",
-            		"visit_team_name": "Skyliners",
-            		"visit_team_score": 81,
-            		"visit_team_logo": "https://raw.githubusercontent.com/brunosdecampos/Sports-League/master/Sports%20League/basketball1.png"
-            	}
+                {
+                    "game_state": "Pregame",
+                    "game_time": 1456673400,
+                    "home_team_city": "Calgary",
+                    "home_team_name": "Pistons",
+                    "home_team_score": 0,
+                    "home_team_logo": "https://raw.githubusercontent.com/brunosdecampos/Sports-League/master/Sports%20League/basketball5.png",
+                    "visit_team_city": "Kingston",
+                    "visit_team_name": "Indiana",
+                    "visit_team_score": 0,
+                    "visit_team_logo": "https://raw.githubusercontent.com/brunosdecampos/Sports-League/master/Sports%20League/basketball6.png"
+                }
+            ]
+        },
+        {   "name": "Football",
+            "image": "https://raw.githubusercontent.com/brunosdecampos/Swift-Sports-League/master/Sports%20League/football-background.jpg",
+            "games":
+            [
+                {
+                "game_state": "Final",
+                "game_time": 1457352000,
+                "home_team_city": "Montreal",
+                "home_team_name": "Buccaneers",
+                "home_team_score": 12,
+                "home_team_logo": "https://raw.githubusercontent.com/brunosdecampos/Swift-Sports-League/master/Sports%20League/football1.png",
+                "visit_team_city": "Toronto",
+                "visit_team_name": "Panthers",
+                "visit_team_score": 32,
+                "visit_team_logo": "https://raw.githubusercontent.com/brunosdecampos/Swift-Sports-League/master/Sports%20League/football2.png"
+                }
             ]
         }
-	]  
+	]
 }
