@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		B12DAD2A1F04BF950028DBBD /* preview1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B12DAD271F04BF950028DBBD /* preview1.jpg */; };
-		B12DAD2B1F04BF950028DBBD /* preview2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B12DAD281F04BF950028DBBD /* preview2.jpg */; };
 		B12DAD2C1F04BF950028DBBD /* preview3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B12DAD291F04BF950028DBBD /* preview3.jpg */; };
 		B12FF56B1F01BB5C00FDD6D2 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12FF56A1F01BB5B00FDD6D2 /* SwiftyJSON.swift */; };
 		B12FF56D1F01C97100FDD6D2 /* League.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12FF56C1F01C97100FDD6D2 /* League.swift */; };
@@ -35,6 +34,12 @@
 		B149B0AE1EFDE252009773ED /* sports-week-1.json in Resources */ = {isa = PBXBuildFile; fileRef = B149B0AC1EFDE252009773ED /* sports-week-1.json */; };
 		B149B0AF1EFDE252009773ED /* sports-week-2.json in Resources */ = {isa = PBXBuildFile; fileRef = B149B0AD1EFDE252009773ED /* sports-week-2.json */; };
 		B149B0BB1EFDFB47009773ED /* LeaguesTableViewCellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B149B0BA1EFDFB47009773ED /* LeaguesTableViewCellController.swift */; };
+		B1B489DD1F055E9700C51C06 /* baseball3.png in Resources */ = {isa = PBXBuildFile; fileRef = B1B489D81F055E9700C51C06 /* baseball3.png */; };
+		B1B489DE1F055E9700C51C06 /* baseball4.png in Resources */ = {isa = PBXBuildFile; fileRef = B1B489D91F055E9700C51C06 /* baseball4.png */; };
+		B1B489DF1F055E9700C51C06 /* football-background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B1B489DA1F055E9700C51C06 /* football-background.jpg */; };
+		B1B489E01F055E9700C51C06 /* football1.png in Resources */ = {isa = PBXBuildFile; fileRef = B1B489DB1F055E9700C51C06 /* football1.png */; };
+		B1B489E11F055E9700C51C06 /* football2.png in Resources */ = {isa = PBXBuildFile; fileRef = B1B489DC1F055E9700C51C06 /* football2.png */; };
+		B1B489E31F055F0000C51C06 /* preview2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B1B489E21F055F0000C51C06 /* preview2.jpg */; };
 		B1F7827F1F0380E90034DFE5 /* baseball1.png in Resources */ = {isa = PBXBuildFile; fileRef = B1F782691F0380E80034DFE5 /* baseball1.png */; };
 		B1F782801F0380E90034DFE5 /* baseball2.png in Resources */ = {isa = PBXBuildFile; fileRef = B1F7826A1F0380E80034DFE5 /* baseball2.png */; };
 		B1F782831F0380E90034DFE5 /* basketball1.png in Resources */ = {isa = PBXBuildFile; fileRef = B1F7826D1F0380E80034DFE5 /* basketball1.png */; };
@@ -54,7 +59,6 @@
 
 /* Begin PBXFileReference section */
 		B12DAD271F04BF950028DBBD /* preview1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = preview1.jpg; sourceTree = "<group>"; };
-		B12DAD281F04BF950028DBBD /* preview2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = preview2.jpg; sourceTree = "<group>"; };
 		B12DAD291F04BF950028DBBD /* preview3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = preview3.jpg; sourceTree = "<group>"; };
 		B12FF56A1F01BB5B00FDD6D2 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 		B12FF56C1F01C97100FDD6D2 /* League.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = League.swift; sourceTree = "<group>"; };
@@ -76,6 +80,12 @@
 		B149B0AC1EFDE252009773ED /* sports-week-1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "sports-week-1.json"; sourceTree = "<group>"; };
 		B149B0AD1EFDE252009773ED /* sports-week-2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "sports-week-2.json"; sourceTree = "<group>"; };
 		B149B0BA1EFDFB47009773ED /* LeaguesTableViewCellController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeaguesTableViewCellController.swift; sourceTree = "<group>"; };
+		B1B489D81F055E9700C51C06 /* baseball3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baseball3.png; sourceTree = "<group>"; };
+		B1B489D91F055E9700C51C06 /* baseball4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baseball4.png; sourceTree = "<group>"; };
+		B1B489DA1F055E9700C51C06 /* football-background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "football-background.jpg"; sourceTree = "<group>"; };
+		B1B489DB1F055E9700C51C06 /* football1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = football1.png; sourceTree = "<group>"; };
+		B1B489DC1F055E9700C51C06 /* football2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = football2.png; sourceTree = "<group>"; };
+		B1B489E21F055F0000C51C06 /* preview2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = preview2.jpg; sourceTree = "<group>"; };
 		B1F7825E1F03681C0034DFE5 /* AmsiPro-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AmsiPro-Black.ttf"; sourceTree = "<group>"; };
 		B1F7825F1F03681C0034DFE5 /* AmsiPro-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AmsiPro-Bold.ttf"; sourceTree = "<group>"; };
 		B1F782601F03681C0034DFE5 /* AmsiPro-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AmsiPro-Light.ttf"; sourceTree = "<group>"; };
@@ -164,17 +174,12 @@
 			isa = PBXGroup;
 			children = (
 				B12DAD271F04BF950028DBBD /* preview1.jpg */,
-				B12DAD281F04BF950028DBBD /* preview2.jpg */,
+				B1B489E21F055F0000C51C06 /* preview2.jpg */,
 				B12DAD291F04BF950028DBBD /* preview3.jpg */,
+				B139B9EA1F0427CC00E67E2D /* hockey-background.jpg */,
 				B139B9E81F0427CC00E67E2D /* baseball-background.jpg */,
 				B139B9E91F0427CC00E67E2D /* basketball-background.jpg */,
-				B139B9EA1F0427CC00E67E2D /* hockey-background.jpg */,
-				B1F782691F0380E80034DFE5 /* baseball1.png */,
-				B1F7826A1F0380E80034DFE5 /* baseball2.png */,
-				B1F7826D1F0380E80034DFE5 /* basketball1.png */,
-				B1F7826E1F0380E80034DFE5 /* basketball2.png */,
-				B1F7826F1F0380E80034DFE5 /* basketball3.png */,
-				B1F782701F0380E80034DFE5 /* basketball4.png */,
+				B1B489DA1F055E9700C51C06 /* football-background.jpg */,
 				B1F782741F0380E80034DFE5 /* hockey1.png */,
 				B1F782751F0380E80034DFE5 /* hockey2.png */,
 				B1F782761F0380E80034DFE5 /* hockey3.png */,
@@ -183,6 +188,16 @@
 				B1F782791F0380E80034DFE5 /* hockey6.png */,
 				B1F7827A1F0380E80034DFE5 /* hockey7.png */,
 				B1F7827B1F0380E80034DFE5 /* hockey8.png */,
+				B1F782691F0380E80034DFE5 /* baseball1.png */,
+				B1F7826A1F0380E80034DFE5 /* baseball2.png */,
+				B1B489D81F055E9700C51C06 /* baseball3.png */,
+				B1B489D91F055E9700C51C06 /* baseball4.png */,
+				B1F7826D1F0380E80034DFE5 /* basketball1.png */,
+				B1F7826E1F0380E80034DFE5 /* basketball2.png */,
+				B1F7826F1F0380E80034DFE5 /* basketball3.png */,
+				B1F782701F0380E80034DFE5 /* basketball4.png */,
+				B1B489DB1F055E9700C51C06 /* football1.png */,
+				B1B489DC1F055E9700C51C06 /* football2.png */,
 			);
 			name = Github;
 			sourceTree = "<group>";
@@ -269,6 +284,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1B489DE1F055E9700C51C06 /* baseball4.png in Resources */,
 				B139B9EE1F04345900E67E2D /* AmsiPro-Black.ttf in Resources */,
 				B139B9EF1F04345900E67E2D /* AmsiPro-Bold.ttf in Resources */,
 				B139B9F01F04345900E67E2D /* AmsiPro-Light.ttf in Resources */,
@@ -276,6 +292,7 @@
 				B139B9F21F04345900E67E2D /* AmsiPro-SemiBold.ttf in Resources */,
 				B139B9F31F04345900E67E2D /* AmsiPro-Ultra.ttf in Resources */,
 				B139B9F41F04345900E67E2D /* AmsiPro-XLight.ttf in Resources */,
+				B1B489E11F055E9700C51C06 /* football2.png in Resources */,
 				B1F782901F0380E90034DFE5 /* hockey7.png in Resources */,
 				B139B9EC1F0427CC00E67E2D /* basketball-background.jpg in Resources */,
 				B1F782831F0380E90034DFE5 /* basketball1.png in Resources */,
@@ -284,8 +301,9 @@
 				B1F7828D1F0380E90034DFE5 /* hockey4.png in Resources */,
 				B1F7828B1F0380E90034DFE5 /* hockey2.png in Resources */,
 				B12DAD2A1F04BF950028DBBD /* preview1.jpg in Resources */,
-				B12DAD2B1F04BF950028DBBD /* preview2.jpg in Resources */,
+				B1B489DF1F055E9700C51C06 /* football-background.jpg in Resources */,
 				B1F7828F1F0380E90034DFE5 /* hockey6.png in Resources */,
+				B1B489E31F055F0000C51C06 /* preview2.jpg in Resources */,
 				B149B0AE1EFDE252009773ED /* sports-week-1.json in Resources */,
 				B1F782911F0380E90034DFE5 /* hockey8.png in Resources */,
 				B149B0A51EFDE1D4009773ED /* LaunchScreen.storyboard in Resources */,
@@ -299,6 +317,8 @@
 				B149B0A01EFDE1D4009773ED /* Main.storyboard in Resources */,
 				B139B9ED1F0427CC00E67E2D /* hockey-background.jpg in Resources */,
 				B1F7828C1F0380E90034DFE5 /* hockey3.png in Resources */,
+				B1B489DD1F055E9700C51C06 /* baseball3.png in Resources */,
+				B1B489E01F055E9700C51C06 /* football1.png in Resources */,
 				B12DAD2C1F04BF950028DBBD /* preview3.jpg in Resources */,
 				B1F7828E1F0380E90034DFE5 /* hockey5.png in Resources */,
 				B1F782841F0380E90034DFE5 /* basketball2.png in Resources */,
