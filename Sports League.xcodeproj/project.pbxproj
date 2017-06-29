@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B12DAD2A1F04BF950028DBBD /* preview1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B12DAD271F04BF950028DBBD /* preview1.jpg */; };
+		B12DAD2B1F04BF950028DBBD /* preview2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B12DAD281F04BF950028DBBD /* preview2.jpg */; };
+		B12DAD2C1F04BF950028DBBD /* preview3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B12DAD291F04BF950028DBBD /* preview3.jpg */; };
 		B12FF56B1F01BB5C00FDD6D2 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12FF56A1F01BB5B00FDD6D2 /* SwiftyJSON.swift */; };
 		B12FF56D1F01C97100FDD6D2 /* League.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12FF56C1F01C97100FDD6D2 /* League.swift */; };
 		B12FF56F1F01F6BA00FDD6D2 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12FF56E1F01F6B900FDD6D2 /* Game.swift */; };
@@ -50,6 +53,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B12DAD271F04BF950028DBBD /* preview1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = preview1.jpg; sourceTree = "<group>"; };
+		B12DAD281F04BF950028DBBD /* preview2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = preview2.jpg; sourceTree = "<group>"; };
+		B12DAD291F04BF950028DBBD /* preview3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = preview3.jpg; sourceTree = "<group>"; };
 		B12FF56A1F01BB5B00FDD6D2 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 		B12FF56C1F01C97100FDD6D2 /* League.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = League.swift; sourceTree = "<group>"; };
 		B12FF56E1F01F6B900FDD6D2 /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
@@ -157,6 +163,9 @@
 		B1F7825C1F0367C70034DFE5 /* Github */ = {
 			isa = PBXGroup;
 			children = (
+				B12DAD271F04BF950028DBBD /* preview1.jpg */,
+				B12DAD281F04BF950028DBBD /* preview2.jpg */,
+				B12DAD291F04BF950028DBBD /* preview3.jpg */,
 				B139B9E81F0427CC00E67E2D /* baseball-background.jpg */,
 				B139B9E91F0427CC00E67E2D /* basketball-background.jpg */,
 				B139B9EA1F0427CC00E67E2D /* hockey-background.jpg */,
@@ -274,6 +283,8 @@
 				B139B9EB1F0427CC00E67E2D /* baseball-background.jpg in Resources */,
 				B1F7828D1F0380E90034DFE5 /* hockey4.png in Resources */,
 				B1F7828B1F0380E90034DFE5 /* hockey2.png in Resources */,
+				B12DAD2A1F04BF950028DBBD /* preview1.jpg in Resources */,
+				B12DAD2B1F04BF950028DBBD /* preview2.jpg in Resources */,
 				B1F7828F1F0380E90034DFE5 /* hockey6.png in Resources */,
 				B149B0AE1EFDE252009773ED /* sports-week-1.json in Resources */,
 				B1F782911F0380E90034DFE5 /* hockey8.png in Resources */,
@@ -288,6 +299,7 @@
 				B149B0A01EFDE1D4009773ED /* Main.storyboard in Resources */,
 				B139B9ED1F0427CC00E67E2D /* hockey-background.jpg in Resources */,
 				B1F7828C1F0380E90034DFE5 /* hockey3.png in Resources */,
+				B12DAD2C1F04BF950028DBBD /* preview3.jpg in Resources */,
 				B1F7828E1F0380E90034DFE5 /* hockey5.png in Resources */,
 				B1F782841F0380E90034DFE5 /* basketball2.png in Resources */,
 			);
