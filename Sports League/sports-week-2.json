@@ -82,7 +82,7 @@
             		"game_time": 1427169600,
 					"home_team_city": "Toronto",
             		"home_team_name": "Phoenix",
-            		"home_team_score": 100,
+            		"home_team_score": 63,
             		"home_team_logo": "https://raw.githubusercontent.com/brunosdecampos/Sports-League/master/Sports%20League/basketball4.png",
 					"visit_team_city": "Waterloo",
             		"visit_team_name": "Dinamo",
@@ -98,7 +98,7 @@
             		"home_team_logo": "https://raw.githubusercontent.com/brunosdecampos/Sports-League/master/Sports%20League/basketball3.png",
 					"visit_team_city": "Vancouver",
             		"visit_team_name": "Skyliners",
-            		"visit_team_score": 104,
+            		"visit_team_score": 81,
             		"visit_team_logo": "https://raw.githubusercontent.com/brunosdecampos/Sports-League/master/Sports%20League/basketball1.png"
             	}
             ]

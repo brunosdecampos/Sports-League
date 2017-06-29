@@ -49,5 +49,7 @@
 		<string>AmsiPro-Ultra.ttf</string>
 		<string>AmsiPro-XLight.ttf</string>
 	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
 </dict>
 </plist>

@@ -10,14 +10,10 @@ class LeaguesViewController: UIViewController, UITableViewDataSource, UITableVie
     
     var leagues: Array<League>!
     
-//    var fruit1: Array<String>?
-//    var fruit2: Array<String>?
+    var activityIndicator: UIActivityIndicatorView = UIActivityIndicatorView()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-//        fruit1 = ["Apple", "Banana"]
-//        fruit2 = ["Orange"]
         
         if weekSelected != nil {
             if weekSelected == 0 {
@@ -34,14 +30,28 @@ class LeaguesViewController: UIViewController, UITableViewDataSource, UITableVie
         }
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        activityIndicator.center = self.view.center
+        activityIndicator.hidesWhenStopped = true
+        activityIndicator.activityIndicatorViewStyle = UIActivityIndicatorViewStyle.gray
+        view.addSubview(activityIndicator)
+        
+        activityIndicator.startAnimating()
+        UIApplication.shared.beginIgnoringInteractionEvents()
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        activityIndicator.stopAnimating()
+        UIApplication.shared.endIgnoringInteractionEvents()
+    }
+    
     func parseJSON(json: JSON) {
         leagues = Array<League>()
         
         let leagueDataArray = json["leagues"].arrayValue
-//        print("LeagueDataArray; \(leagueDataArray)")
+        
         for leagueData in leagueDataArray {
             leagues.append(League(data: leagueData))
-            //print(leagueData)
         }
     }
     
@@ -60,19 +70,8 @@ class LeaguesViewController: UIViewController, UITableViewDataSource, UITableVie
         receiverViewController.leagueIndexSelected = self.leagueIndexSelected
     }
     
-//    func numberOfSections(in tableView: UITableView) -> Int {
-//        return 1
-//    }
-    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-//        print(leagues?.count ?? 0)
         return leagues?.count ?? 0
-        
-//        if section == 0 {
-//            return fruit1?.count ?? 0
-//        } else {
-//            return fruit2?.count ?? 0
-//        }
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -80,47 +79,16 @@ class LeaguesViewController: UIViewController, UITableViewDataSource, UITableVie
             let cell = tableView.dequeueReusableCell(withIdentifier: "sportIdentifier", for: indexPath) as! LeaguesTableViewCellController
             
             cell.feedLeagueCell(league: self.leagues[indexPath.row])
-            //cell.setForecast(forecast: self.forecasts[indexPath.row])
-            
-            // cell.fruit.image = UIImage(named: (fruit1![indexPath.row]) + ".png")
-            //cell.teamName.text = leagues![indexPath.row]
-            
             
             return cell
         } else {
             return UITableViewCell()
         }
-        
-//        if fruit1 != nil && fruit2 != nil {
-//            let cell = tableView.dequeueReusableCell(withIdentifier: "sportIdentifier", for: indexPath) as! LeaguesTableViewCellController
-//            
-//            if indexPath.section == 0 {
-//                cell.fruit.image = UIImage(named: (fruit1![indexPath.row]) + ".png")
-//                cell.name.text = fruit1![indexPath.row]
-//            } else {
-//                cell.fruit.image = UIImage(named: (fruit2![indexPath.row]) + ".png")
-//                cell.name.text = fruit2![indexPath.row]
-//            }
-//            
-//            return cell
-//        } else {
-//            return UITableViewCell()
-//        }
     }
-    
-//    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-//        if indexPath.section == 0 {
-//            print(fruit1![indexPath.row])
-//        } else {
-//            print(fruit2![indexPath.row])
-//        }
-//        
-//        print(indexPath.section)
-//    }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
-
+    
 }
 

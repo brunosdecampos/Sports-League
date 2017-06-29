@@ -10,6 +10,8 @@ class GamesViewController: UIViewController, UITableViewDataSource, UITableViewD
     
     var games: Array<Game>!
     
+    var activityIndicator: UIActivityIndicatorView = UIActivityIndicatorView()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -27,19 +29,29 @@ class GamesViewController: UIViewController, UITableViewDataSource, UITableViewD
             }
         }
     }
-
+    
+    override func viewWillAppear(_ animated: Bool) {
+        activityIndicator.center = self.view.center
+        activityIndicator.hidesWhenStopped = true
+        activityIndicator.activityIndicatorViewStyle = UIActivityIndicatorViewStyle.gray
+        view.addSubview(activityIndicator)
+        
+        activityIndicator.startAnimating()
+        UIApplication.shared.beginIgnoringInteractionEvents()
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        activityIndicator.stopAnimating()
+        UIApplication.shared.endIgnoringInteractionEvents()
+    }
+    
     func parseJSON(json: JSON) {
         if leagueSelected != nil {
-//            var jsonArr:[JSON] = JSON["leagues"].arrayValue
-//            var stringArr:[String] = JSON["leagues"].arrayValue.map { $0.stringValue }
-            
             games = Array<Game>()
             
             for item in json["leagues"].arrayValue {
                 if item["name"].stringValue == leagueSelected! {
                     for innerItem in item["games"].arrayValue {
-                        //print("\(innerItem["home_team_name"]) x \(innerItem["visit_team_name"])")
-                        
                         games.append(Game(leagueIndex: leagueIndexSelected!, data: innerItem))
                     }
                 }
@@ -47,12 +59,7 @@ class GamesViewController: UIViewController, UITableViewDataSource, UITableViewD
         }
     }
     
-//    func numberOfSections(in tableView: UITableView) -> Int {
-//        return 1
-//    }
-
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // print("NumberOfRowsInSection: \(games?.count ?? 0)")
         return games?.count ?? 0
     }
     
@@ -71,5 +78,5 @@ class GamesViewController: UIViewController, UITableViewDataSource, UITableViewD
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
-
+    
 }

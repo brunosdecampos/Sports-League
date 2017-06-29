@@ -63,9 +63,9 @@ class WeeksViewController: UIViewController, UITableViewDataSource, UITableViewD
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         if weeks != nil {
             let cell = tableView.dequeueReusableCell(withIdentifier: "weekIdentifier", for: indexPath) as! WeeksTableViewCellController
-
+            
             cell.weekLabel.text = weeks![indexPath.row]
-
+            
             return cell
         } else {
             return UITableViewCell()

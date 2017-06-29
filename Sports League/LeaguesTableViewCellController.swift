@@ -1,14 +1,14 @@
 import UIKit
 
 class LeaguesTableViewCellController: UITableViewCell {
-
+    
     @IBOutlet weak var SportImage: UIImageView!
     @IBOutlet weak var teamName: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
     }
-
+    
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
     }

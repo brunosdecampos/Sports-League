@@ -1,7 +1,7 @@
 import UIKit
 
 class GamesTableViewCellController: UITableViewCell {
-
+    
     @IBOutlet weak var homeTeamLogo: UIImageView!
     @IBOutlet weak var homeTeamName: UILabel!
     @IBOutlet weak var homeTeamCity: UILabel!
@@ -18,7 +18,7 @@ class GamesTableViewCellController: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
     }
-
+    
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
     }
