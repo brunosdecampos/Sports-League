@@ -9,6 +9,4 @@
 This is an application to demonstrate the usage of a table view with JSON. Basically, the application reads two JSON files and print them out through different table views. You also may see an activity indicator (loading) throughout the segues as soon as a new segue is called.
 
 **Important:**
-```
-Since no constraints were added into the project, you must run the application under the iPhone 7 simulation so that it can run properly.
-```
+> Since no constraints were added into the project, you must run the application under the iPhone 7 simulation so that it can run properly.
